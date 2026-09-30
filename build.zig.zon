@@ -1,0 +1,16 @@
+.{
+    .name = .courier,
+    .version = "0.0.0",
+    .fingerprint = 0xcf134c7c224a9d20, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.16.0",
+    .dependencies = .{
+        .zlog = .{
+            .path = ".courier-deps/zlog-af664ed3a2cf",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}

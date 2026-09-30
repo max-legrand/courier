@@ -1,0 +1,17 @@
+.{
+    .name = .courier,
+    .version = "0.0.0",
+    .fingerprint = 0xcf134c7c224a9d20, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.16.0",
+    .dependencies = .{
+        .zlog = .{
+            .url = "git+https://github.com/max-legrand/zlog#af664ed3a2cfc7515315c837d448aeebb70566fe",
+            .hash = "N-V-__8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
